@@ -9,7 +9,7 @@ import java.io.IOException;
 
 import cmd.Message;
 import cmd.RoundAction;
-
+//hello
 public class Demo {
 	public static void main(String args[]) {
 		String ip = args[1];
@@ -48,7 +48,7 @@ public class Demo {
 
 				RoundAction action = client.act();
 
-				System.out.println("»¨·ÑÊ±¼ä" + (System.currentTimeMillis() - start) + "ms");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½" + (System.currentTimeMillis() - start) + "ms");
 
 				Message am = new Message("action", action);
 				String send = am.toString();
